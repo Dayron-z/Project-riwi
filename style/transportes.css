@@ -42,6 +42,7 @@ main{
     background-color: #1b4965;
     color: #ffffff;
     font-size: 23px;
+    border: #1b4965;
 }
 
 .container-button-2 button {
@@ -52,6 +53,7 @@ main{
     color: #ffffff;
     font-size: 30px;
     margin-top: 70px;
+    border: #1b4965;
 }
 
 .style-button button:hover{
@@ -71,5 +73,22 @@ main{
 .title{
     margin-top: 60px;
     margin-bottom: 50px;
+}
+
+
+.image_2 img{
+    margin: 15px;
+    transition: 0.5;
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+.image_2 img:hover{
+    box-shadow: 0px 0px 20px #1b4965;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }
 

@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+header .title {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
 :root {
     --Mint-green: #bee9e8;
     --Moonstone: #62b6cb;
@@ -8,59 +18,102 @@
     --Picton-blue: #5fa8d3;
 }
 
-
-
-
-
-body{
-    margin: 0 auto;
-    max-width: 1200px;
+body {
+    background-color: var(--Mint-green);
     font-family: 'Poppins', sans-serif;
 }
 
 
-img{
-    max-width: 100%;
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
-
-
-
-.container-items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    gap:25px;
-} 
-
-.item{
+.item {
     border-radius: 10px;
 }
 
-
-.item:hover{
+.item:hover {
     box-shadow: 0px 0px 20px var(--Indigo-dye);
 }
 
-.description{
+.description {
     padding: 15px 30px;
 }
 
-.item img{
+.item img {
     width: 100%;
-    height:150px;
+    height: 150px;
     border-radius: 10px 10px 0 0;
     transition: all 1s;
     /*Ajusta la imagen  */
 }
 
-
 .item:hover {
-transform: scale(1);
+    transform: scale(1);
 }
 
-
-.item figure{
+.item figure {
     overflow: hidden;
 }
+
+.description h2,
+.price {
+    text-align: center;
+}
+
+.description {
+    background-color: var(--Indigo-dye) ;
+    border-radius: 5px;
+}
+
+.title h1 {
+    color:white;
+    background-color: var(--Indigo-dye);
+    border-radius: 16px;
+    width: 300px;
+    height: 90px;
+    font-size: 35px;
+}
+
+.title {
+    min-width: 1408px;
+    justify-content: center;
+}
+
+.container {
+    margin: 50px 400px;
+}
+
+.combos{
+    min-width: 615px;
+}
+
+
+.combos .combo{
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgb(0, 204, 255);
+    color: red;
+}
+
+
+.hours{
+    display: flex;
+    justify-content: center;
+    min-width: 623px;
+    margin-bottom: 50px;
+}
+
+.hours .recomendation{
+    text-align: center;
+    background-color: #5fa8d3;
+    width: 30%;
+    border-radius: 10px;
+}
+
 
 /*  */

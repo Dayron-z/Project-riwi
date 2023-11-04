@@ -142,3 +142,28 @@ body {
 }
 
 /*  */
+
+
+/* Estilos para pantallas pequeñas (por ejemplo, teléfonos) */
+@media (max-width: 780px) {
+    .container-items {
+        grid-template-columns: repeat(1, 1fr); /* Cambiar a una sola columna */
+        gap: 10px; /* Reducir el espacio entre elementos */
+    }
+
+    .item img {
+        width: 100%;
+        height: 75px;
+        border-radius: 10px 10px 0 0;
+        transition: all 1s;
+        /*Ajusta la imagen  */
+    }
+
+
+    *{
+        width: 900px;
+    }
+
+
+
+}

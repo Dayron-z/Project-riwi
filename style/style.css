@@ -8,12 +8,23 @@
     --Picton-blue: #5fa8d3;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--Columbia-blue);
     margin: 100px;
     height: 100%;
 }
+
+
+.paragraph-reserve{
+    margin: 25px;
+    
+} 
 
 .container-button button {
     border: #5fa8d3;
@@ -87,6 +98,36 @@ main {
     color: #5fa8d3;
     background-color: #ffffff;
 }
+
+
+@media (max-width: 1100px) {
+
+    .image{
+        width: 90vw;
+        margin: 0px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .information-text{
+        text-align: center;
+        width: 50%;
+        margin: 0px;
+        min-width: 500px;
+    }
+    
+    body{
+        margin: 0px 20px;
+    }
+    .container{
+        margin:20px;
+    }
+
+
+
+  }
 
 
 

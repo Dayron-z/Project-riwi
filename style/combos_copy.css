@@ -141,6 +141,13 @@ body {
     height: 200px;
 }
 
+
+.information{
+    text-align: center;
+    font-size: 40px;
+    min-width: 772px;
+}
+
 /*  */
 
 
@@ -150,8 +157,6 @@ body {
         grid-template-columns: repeat(1, 1fr); /* Cambiar a una sola columna */
         gap: 20px; /* Reducir el espacio entre elementos */
     }
-
-
 
 
     .container-title .title{
@@ -192,12 +197,22 @@ body {
         margin-left:20px ;
     }
 
+    .information{
+        text-align: center;
+    }
+
     .item{
         width: 80vw;
     }
 
     body{
         padding-left: 10px ;
+    }
+
+    .information{
+        text-align: center;
+        font-size: 40px;
+        min-width: 400px;
     }
     
 

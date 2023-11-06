@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --Mint-green: #bee9e8;
+    --Moonstone: #62b6cb;
+    --Indigo-dye: #1b4965;
+    --Columbia-blue: #cae9ff;
+    --Picton-blue: #5fa8d3;
+}
+
+body{
+    margin: 70px 200px;
+    background-color: var(--Columbia-blue);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #5fa8d3;
+}
+
+
+
+section .image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image img{
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 16px;
+    transition: 0.5;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+.container-button-1 button {
+    border-radius: 16px;
+    width: 150px;
+    height: 60px;
+    background-color: #1b4965;
+    color: #ffffff;
+    font-size: 23px;
+    border: #1b4965;
+}
+
+.container-button-2 button {
+    border-radius: 16px;
+    width: 250px;
+    height: 80px;
+    background-color: #1b4965;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 70px;
+    border: #1b4965;
+}
+
+.style-button button:hover{
+    border: red;
+    background-color: white;
+    color: #5fa8d3;
+    font-weight: bold;
+}
+
+
+.image img:hover{
+    box-shadow: 0px 0px 20px #1b4965;
+}
+
+
+
+.title{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.image_2 img{
+    margin: 15px;
+    transition: 0.5;
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+.image_2 img:hover{
+    box-shadow: 0px 0px 20px #1b4965;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+@media (max-width: 1100px) {
+
+    .image{
+        width: 90vw;
+        margin: 0px;
+    }
+
+
+
+    
+    body{
+        margin: 0px 20px;
+    }
+    .container{
+        margin:20px;
+    }
+
+    .container-button-1, .container-button-2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+  }
+

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --Mint-green: #BEE9E8;
+    --Moonstone: #62B6CB;
+    --Indigo-dye: #1B4965;
+    --Columbia-blue: #CAE9FF;
+    --Picton-blue: #5FA8D3; 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  
+}
+
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 1rem ;
+    padding-left: 1rem;
+    background-color: var(--Picton-blue);
+    /* box-shadow: 3px 3px 3px grey; */
+    position: fixed ;
+    z-index: 1;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  ul {
+    display: flex;
+    list-style: none;
+    
+    margin-right: 7rem;
+    gap: 1.5rem;
+   
+  }
+  
+  .logo-nav{
+  
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 35px;
+    margin-left: 40px;
+  
+  }
+  .ul-items  a:hover{
+    color: var(--Columbia-blue);
+    cursor:pointer;
+  }
+  
+  a.button-contact{
+   
+    border: .1rem solid var(--Indigo-dye);
+    border-radius: 10px;
+    width: 8rem;
+    font-size: medium;
+    font-weight: 500;
+    background-color: var(--Indigo-dye);
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  a.button-contact:hover{
+    cursor: pointer;
+    background-color: #eaeaea;
+    color: var(--Indigo-dye);
+  }
+  .space{
+    height: 10vh;
+  }
+  
+  
+  
+  ul li ul.drop li {
+    display: block;
+  }
+  
+  ul li ul.drop{
+    width: 100%;
+    background-color: var(--Picton-blue);
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+  
+  ul li:hover ul.drop{
+    display: block;
+  }
+  
+  /* .title {
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+  } */
+  
